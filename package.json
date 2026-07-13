@@ -25,12 +25,12 @@
   },
   "workspaces": [
     "front-end",
-    "back-end"
+    "backend"
   ],
   "scripts": {
     "dev": "concurrently \"npm run start:frontend\" \"npm run start:backend\"",
     "start:frontend": "cd front-end && npm start && npm run open",
-    "start:backend": "concurrently \"cd back-end && python app.py\" \"cd back-end && python email_.py\"   \"cd back-end && python server.py\"   \"cd back-end && python deposit_or_withdrawal.py\" " 
+    "start:backend": "concurrently \"cd backend && python app.py\" \"cd backend && python email_.py\"   \"cd backend && python server.py\"   \"cd backend && python deposit_or_withdrawal.py\" " 
   },
   "engines": {
     "node": ">=16.0.0",
