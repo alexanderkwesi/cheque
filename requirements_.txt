@@ -1,0 +1,65 @@
+# Core Flask Framework (pinned compatible versions)
+Flask==2.3.3
+Werkzeug==2.3.7
+
+# Database
+Flask-SQLAlchemy==3.0.5
+SQLAlchemy==2.0.23
+
+# Authentication & Security
+Flask-Login==0.6.3
+Flask-Bcrypt==1.0.1
+PyJWT==2.8.0
+
+# Email handling
+Flask-Mail==0.9.1
+
+# API development
+Flask-RESTful==0.3.10
+Flask-JWT-Extended==4.5.3
+
+# File upload & processing
+Flask-Uploads==0.2.1
+
+# Computer Vision & OCR
+opencv-python==4.8.1.78
+pytesseract==0.3.10
+pdf2image==1.16.3
+Pillow==10.0.1
+
+# Data validation
+marshmallow==3.20.1
+Flask-Marshmallow==1.2.1
+
+# Environment variables
+python-dotenv==1.0.0
+
+# HTTP requests
+requests==2.31.0
+
+# Background tasks
+celery==5.3.4
+
+# Caching
+Flask-Caching==2.0.2
+
+# CORS support
+Flask-CORS==4.0.0
+
+# Development & Testing
+pytest==7.4.2
+pytest-flask==1.2.0
+Faker==19.9.0
+
+# Database migrations
+Flask-Migrate==4.0.5
+alembic==1.12.1
+
+# Serialization
+python-dateutil==2.8.2
+
+# PostgreSQL support (optional)
+psycopg2-binary==2.9.7
+
+# Runtime dependencies
+numpy==1.24.4
